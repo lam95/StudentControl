@@ -26,6 +26,15 @@ void Action::showStudent(Student student){
     cout << "\t" << student.getSex() << "\t" << student.getGpa() << endl;
 }
 
+bool checkId(vector<Student> student, int id){
+    for (int i = 0; i < student.size(); ++i) {
+        if(id == student[i].getId()){
+            return false;
+        }
+    }
+    return true;
+}
+
 void Action::addInfoStudent(vector<Student> &student){
     Student newStudent;
     int id, age;
@@ -33,24 +42,29 @@ void Action::addInfoStudent(vector<Student> &student){
     float gpa;
     cout << "Add information student" << endl;
 
-    cout << "Enter student id:";
+    cout << "Enter student id: ";
     cin >> id;
+    while( !checkId(student, id) ) {
+        cout << "Id existed!" << endl;
+        cout << "Retype new student id: ";
+        cin >> id;
+    }
     newStudent.setId(id);
 
-    cout << "Enter student name:";
+    cout << "Enter student name: ";
     cin.ignore();
     getline(cin, name);
     newStudent.setName(name);
 
-    cout << "Enter student sex:";
+    cout << "Enter student sex: ";
     getline(cin, sex);
     newStudent.setSex(sex);
 
-    cout << "Enter student age:";
+    cout << "Enter student age: ";
     cin >> age;
     newStudent.setAge(age);
 
-    cout << "Enter grade point average:";
+    cout << "Enter grade point average: ";
     cin >> gpa;
     newStudent.setGpa(gpa);
 
