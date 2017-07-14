@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/GitRepo/Student/main/Action.cpp
+iostream
+-
+algorithm
+-
+Action.h
+F:/GitRepo/Student/main/Action.h
+
+F:/GitRepo/Student/main/Action.h
+vector
+-
+Student.h
+F:/GitRepo/Student/main/Student.h
+
+F:/GitRepo/Student/main/Menu.cpp
+iostream
+-
+Menu.h
+F:/GitRepo/Student/main/Menu.h
+
+F:/GitRepo/Student/main/Menu.h
+
+F:/GitRepo/Student/main/Student.cpp
+Student.h
+F:/GitRepo/Student/main/Student.h
+
+F:/GitRepo/Student/main/Student.h
+string
+-
+
+F:/GitRepo/Student/main/main.cpp
+iostream
+-
+Menu.h
+F:/GitRepo/Student/main/Menu.h
+Action.h
+F:/GitRepo/Student/main/Action.h
+

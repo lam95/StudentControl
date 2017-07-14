@@ -1,0 +1,3 @@
+F:/GitRepo/Student/main/cmake-build-debug/CMakeFiles/edit_cache.dir
+F:/GitRepo/Student/main/cmake-build-debug/CMakeFiles/main.dir
+F:/GitRepo/Student/main/cmake-build-debug/CMakeFiles/rebuild_cache.dir
