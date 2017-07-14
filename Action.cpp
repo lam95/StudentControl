@@ -44,6 +44,7 @@ void Action::addInfoStudent(vector<Student> &student){
 
     cout << "Enter student id: ";
     cin >> id;
+    cout << "da nhap id = " << id << endl;
     while( !checkId(student, id) ) {
         cout << "Id existed!" << endl;
         cout << "Retype new student id: ";
