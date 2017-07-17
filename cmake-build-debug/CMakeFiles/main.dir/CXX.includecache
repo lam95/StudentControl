@@ -6,41 +6,41 @@
 
 #IncludeRegexTransform: 
 
-F:/GitRepo/Student/main/Action.cpp
+F:/GitRepo/StudentControl/Action.cpp
 iostream
 -
 algorithm
 -
 Action.h
-F:/GitRepo/Student/main/Action.h
+F:/GitRepo/StudentControl/Action.h
 
-F:/GitRepo/Student/main/Action.h
+F:/GitRepo/StudentControl/Action.h
 vector
 -
 Student.h
-F:/GitRepo/Student/main/Student.h
+F:/GitRepo/StudentControl/Student.h
 
-F:/GitRepo/Student/main/Menu.cpp
+F:/GitRepo/StudentControl/Menu.cpp
 iostream
 -
 Menu.h
-F:/GitRepo/Student/main/Menu.h
+F:/GitRepo/StudentControl/Menu.h
 
-F:/GitRepo/Student/main/Menu.h
+F:/GitRepo/StudentControl/Menu.h
 
-F:/GitRepo/Student/main/Student.cpp
+F:/GitRepo/StudentControl/Student.cpp
 Student.h
-F:/GitRepo/Student/main/Student.h
+F:/GitRepo/StudentControl/Student.h
 
-F:/GitRepo/Student/main/Student.h
+F:/GitRepo/StudentControl/Student.h
 string
 -
 
-F:/GitRepo/Student/main/main.cpp
+F:/GitRepo/StudentControl/main.cpp
 iostream
 -
 Menu.h
-F:/GitRepo/Student/main/Menu.h
+F:/GitRepo/StudentControl/Menu.h
 Action.h
-F:/GitRepo/Student/main/Action.h
+F:/GitRepo/StudentControl/Action.h
 

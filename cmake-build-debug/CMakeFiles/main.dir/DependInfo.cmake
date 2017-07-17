@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "F:/GitRepo/Student/main/Action.cpp" "F:/GitRepo/Student/main/cmake-build-debug/CMakeFiles/main.dir/Action.cpp.obj"
-  "F:/GitRepo/Student/main/Menu.cpp" "F:/GitRepo/Student/main/cmake-build-debug/CMakeFiles/main.dir/Menu.cpp.obj"
-  "F:/GitRepo/Student/main/Student.cpp" "F:/GitRepo/Student/main/cmake-build-debug/CMakeFiles/main.dir/Student.cpp.obj"
-  "F:/GitRepo/Student/main/main.cpp" "F:/GitRepo/Student/main/cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj"
+  "F:/GitRepo/StudentControl/Action.cpp" "F:/GitRepo/StudentControl/cmake-build-debug/CMakeFiles/main.dir/Action.cpp.obj"
+  "F:/GitRepo/StudentControl/Menu.cpp" "F:/GitRepo/StudentControl/cmake-build-debug/CMakeFiles/main.dir/Menu.cpp.obj"
+  "F:/GitRepo/StudentControl/Student.cpp" "F:/GitRepo/StudentControl/cmake-build-debug/CMakeFiles/main.dir/Student.cpp.obj"
+  "F:/GitRepo/StudentControl/main.cpp" "F:/GitRepo/StudentControl/cmake-build-debug/CMakeFiles/main.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

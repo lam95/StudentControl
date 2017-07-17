@@ -27,15 +27,11 @@ void Action::showStudent(Student student){
 }
 
 bool checkId(vector<Student> student, int id){
-    cout << "student size = " << student.size() << endl;
     for (int i = 0; i < student.size(); ++i) {
-        cout << "id =" << student[i].getId() << endl;
         if(id == student[i].getId()){
-            cout << "false" << endl;
             return false;
         }
     }
-    cout << "return true" << endl;
     return true;
 }
 
@@ -47,9 +43,8 @@ void Action::addInfoStudent(vector<Student> &student){
     cout << "Add information student" << endl;
     cout << "Enter student id: ";
     cin >> id;
-    cout << "da nhap id = " << id << endl;
     while( !checkId(student, id) ) {
-        cout << "Id existed!" << endl;
+        cout << "*** Id existed! ***" << endl;
         cout << "Retype new student id: ";
         cin >> id;
     }

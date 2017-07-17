@@ -1,4 +1,4 @@
-# Install script for directory: F:/GitRepo/Student/main
+# Install script for directory: F:/GitRepo/StudentControl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "F:/GitRepo/Student/main/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/GitRepo/StudentControl/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
