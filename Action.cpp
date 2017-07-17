@@ -52,9 +52,7 @@ void Action::addInfoStudent(vector<Student> &student){
         cout << "Id existed!" << endl;
         cout << "Retype new student id: ";
         cin >> id;
-        cout << "test dung" << endl;
     }
-    cout << "test oke" << endl;
     newStudent.setId(id);
 
     cout << "Enter student name: ";
