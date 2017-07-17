@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include <algorithm>
+#include <fstream>
+#include <iomanip>
 #include "Action.h"
 
 void Action::showAllStudent(vector<Student> student){
@@ -182,4 +184,23 @@ bool cmpStudentGpa(Student studentA, Student studentB){
 void Action::sortStudent(vector<Student> &student){
     sort(student.begin(), student.end(), cmpStudentGpa);
     showAllStudent(student);
+}
+
+void Action::printToFile(vector<Student> student) {
+    int nStudent = student.size();
+    char fileName[20] = "..\\stu_data.txt";
+    ofstream stuFile(fileName, ios::out);
+    if(!stuFile){
+        cout << "Can not open file" << fileName << endl;
+        exit(1);
+    }
+    cout << "Export student information to file." << endl;
+    if(nStudent != 0){
+        //stuFile << "STT" << setw(10) << "Id" << setw(10) << "Name" << setw(30) << "Age" << setw(10) << "Sex" << setw(5) << "Score" << endl;
+        for(int i=0; i<nStudent; i++){
+            stuFile << setw(8) << student[i].getId() << setw(20) << student[i].getName() << setw(10);
+            stuFile << student[i].getAge() << setw(10) << student[i].getSex() << setw(10) << student[i].getGpa()<<endl;
+        }
+    }
+    stuFile.close();
 }

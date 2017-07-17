@@ -25,6 +25,8 @@ public:
     void editStudent(vector<Student> &student);
 
     void sortStudent(vector<Student> &student);
+
+    void printToFile(vector<Student> student);
 };
 
 

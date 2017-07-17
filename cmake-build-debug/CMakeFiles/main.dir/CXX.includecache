@@ -11,6 +11,10 @@ iostream
 -
 algorithm
 -
+fstream
+-
+iomanip
+-
 Action.h
 F:/GitRepo/StudentControl/Action.h
 

@@ -38,6 +38,10 @@ int main() {
                 act.sortStudent(student);
                 menu.exitMenu();
                 break;
+            case 7:
+                act.printToFile(student);
+                menu.exitMenu();
+                break;
             case 0:
                 menu.quit();
             default:

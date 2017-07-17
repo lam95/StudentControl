@@ -46,6 +46,7 @@ void Menu::mainMenu(){
     cout << " 4. Delete student\n";
     cout << " 5. Edit student information\n";
     cout << " 6. Sort student by point\n";
+    cout << " 7. Print student information to file\n";
     cout << " 0. Exit program\n";
     cout << "Choose a number:";
     cin >> swt;
